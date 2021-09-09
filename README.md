@@ -1,1 +1,1 @@
-"# CC-react-training" 
+"# CognitiveCLouds Training" 
