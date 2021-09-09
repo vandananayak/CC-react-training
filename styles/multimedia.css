@@ -11,3 +11,14 @@ figure
 {
     margin-left: 0px;
 }
+
+.iframe,.inline
+{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+#google-map
+{
+    padding-left: 45px;
+}
