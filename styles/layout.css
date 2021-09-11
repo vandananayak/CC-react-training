@@ -1,11 +1,11 @@
+
 body{
     margin: 0;
     padding: 0;
-    background-color: #ffdba5a1;
 }
 .header
 {
-    background-color: #fcc792;
+    background-color: #ffffff;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-left: 15px;
@@ -17,7 +17,7 @@ body{
     display: flex;
     padding: 20px;
     padding-top: 10px;
-    background-color: #e48b32;
+    background-color: #C70039;
 }
 .flex-container >nav{
     padding-top: 10px;
@@ -28,18 +28,19 @@ body{
 a
 {
 padding: 10px;
-background-color: #ffc58a;
-color: black;
+background-color: #c70039cc;
+color: whitesmoke;
 text-align: center;
 text-decoration: none;
 border-radius: 5px;
 }
 a:hover
 {
-    background-color: #ffdba5a1;
+    background-color: #ff0645;
 }
 
 .flex {
+  margin-left: 30px;
     width: 1400px;
     height: 400px;
     display: flex;
@@ -59,7 +60,7 @@ aside {
     margin-top: 20px;
     float: right;
     font-style: italic;
-    background-color: #ffc36b;
+    background-color: #ffd5e1;
   }
   footer {
     position: fixed;
@@ -67,7 +68,7 @@ aside {
     bottom: 0;
     width: 100%;
     height: 40px;
-    background: #583500;
+    background: #000000;
     color: rgb(255, 201, 130);
   }
   
