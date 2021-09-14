@@ -41,15 +41,13 @@ a:hover
 
 .flex {
   margin-left: 30px;
-    width: 1400px;
-    height: 400px;
     display: flex;
     flex-wrap: wrap;
   }
   
   .flex >article {
     width: 400px;
-    height: 100px;
+    height: 200px;
     padding: 10px;
     text-align: justify;
     font-size: medium;
