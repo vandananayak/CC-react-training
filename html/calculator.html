@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/calculator.css">
+    
+    <script src="../scripts/calculator.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <center>
+        <h1>Calculator</h1>
+    </center>
+    
+    <div class="main">
+        
+       <div class="inp">
+        <input type="text" id="display" >
+        <button style="background-color: rgb(0, 118, 197);" onclick="calculate()">=</button>
+        <button style="background-color: rgb(197, 0, 33);" onclick="del()">del</button>
+
+        <button onclick="entering('+')">+</button>
+    </div>
+    <div class="calci">
+        
+        <button onclick="entering('1')">1</button>
+        <button onclick="entering('2')">2</button>
+        <button onclick="entering('3')">3</button>
+        <button onclick="entering('-')">-</button>
+        <button onclick="entering('4')">4</button>
+        <button onclick="entering('5')">5</button>
+        <button onclick="entering('6')">6</button>
+        <button onclick="entering('*')">*</button>
+        <button onclick="entering('7')">7</button>
+        <button onclick="entering('8')" >8</button>
+        <button onclick="entering('9')">9</button>
+        <button onclick="entering('/')">/</button>
+        <button onclick="clr()">C</button>
+        <button onclick="entering('0')" >0</button>
+        <button onclick="entering('.')">.</button>
+        <button onclick="entering('%')">%</button>
+    </div> 
+    </div>
+    
+</body>
+</html>
