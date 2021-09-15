@@ -13,6 +13,7 @@ function calculate()
     
     catch (error) {
         console.log(error);
+        alert(error);
         document.getElementById("display").value ="";
     }
     
