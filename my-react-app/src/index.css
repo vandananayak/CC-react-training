@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+td
+{
+  background-color: aqua;
+  color: darkblue;
+}
+#Veg{
+  background-color: greenyellow;
+}
+#nonVeg
+{
+  background-color: rgb(255, 121, 121);
+}

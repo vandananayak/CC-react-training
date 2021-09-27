@@ -1,8 +1,16 @@
+import Dish from "./Dish";
+import ListComp from "./ListComp";
+import User from "./User";
+import Example from "./ClassCompo";
 function App() {
   return (
-    <div>
-            <h1>Hello Cognitive Clouds Interns!</h1>
-    </div>
+    <>
+    <Example></Example>
+    <ListComp></ListComp>
+    <Dish></Dish>
+    <User></User>
+    </>
+    
   );
   }
   
