@@ -1,3 +1,5 @@
+import Container from "./Container";
+import HandlerFunc from "./HandlerFunc";
 import Search from "./Search";
 
 //this is component
@@ -12,6 +14,9 @@ function App() {
     </div>
     <Search></Search>
     <button>Click</button>
+    <HandlerFunc></HandlerFunc>
+    <br></br>
+    <Container></Container>
     </>
   );
 }
