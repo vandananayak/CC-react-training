@@ -1,11 +1,15 @@
+
+import styles from './Search.module.css';
 function Stories({stories}) {
     return (
         <div>
-            {stories.map(function(items)
+            <ol>
+            {stories.map(function(items, index)
             {
                 return(
                     <>
-                    <li>
+                    <li key={index}>
+                        <div className={styles.span}>
                         <span>
                             <a href={items.url}>{items.title}</a>
                         </span>
@@ -13,13 +17,14 @@ function Stories({stories}) {
                         <span>Comment:{items.num_Comment}</span>
                         <span>Point:{items.point}</span>
                         <span>Id:{items.object_id}</span>
-                        
+                        </div>
                     </li>
-                    <hr></hr>
+                    <hr/>
                     </>
                 )
             }
-            )}
+            )
+            }</ol>
         </div>
     );
 }
