@@ -1,8 +1,8 @@
 import Input from "./Input";
-import usePersistantHook from "./usePersistantHook";
+import useSemiPersistenceState from "./useSemiPersistenceState";
 
 function App() {
-  const [state,setstate,prevState] = usePersistantHook('state',"")
+  const [state,setstate,prevState] = useSemiPersistenceState('state',"")
   const textHandler=(e)=>{
     return(
       setstate(e.target.value)
