@@ -47,10 +47,7 @@ function App() {
             setsearch(e.target.value)
         );
     }
-    const handleOnMinutes=()=>
-    {
-      return
-    }
+
     const searchstories=stories.filter((story)=>
 story.title.toLowerCase().includes(search.toLowerCase())
 )
