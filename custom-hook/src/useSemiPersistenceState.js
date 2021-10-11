@@ -6,18 +6,19 @@ function useSemiPersistenceState(key,initValue) {
  //Every render except first one Qn-2
 
     
-const didMountRef = useRef(false);
+const firstRender = useRef(false);
 // Store previous state value Qn-3
  const prevState= useRef()
   useEffect(() => {
-    if (didMountRef.current)
+    if (firstRender.current)
         {localStorage.setItem(key,persistant)
         console.log("re render the component")
+        prevState.current=persistant
         }
     else
         {
           alert("initial rendering")
-          didMountRef.current = true;
+          firstRender.current = true;
         }
     
     
