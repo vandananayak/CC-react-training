@@ -3,9 +3,6 @@ import Display from './Display';
 import Button from './Button';
 import styles from './App.module.css'
 function App() {
-  let store=localStorage.getItem('state');
-  if(store==='')
-  store=parseInt(store)
   const [state, setstate] = useState(localStorage.getItem('state')||0);
 
   useEffect(() => {
